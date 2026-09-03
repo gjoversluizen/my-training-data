@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T23:49:52.877787",
+  "generated_at": "2026-09-03T00:14:45.041992",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -195,97 +195,6 @@
       "zone_basis": "hr"
     },
     {
-      "activity_id": "i182058872",
-      "date": "2026-08-19",
-      "start_datetime": "2026-08-19T07:55:55",
-      "type": "Run",
-      "name": "easy run + 4\u00d715 dec strides (walking back the strides). strides felt good, no pain. but breaking running down feeling the right hip still being sore as well as the hipflexors. in general hamstrings still had a bit of fatigue. uphill calves were really okay",
-      "interval_summary": [
-        "6x 6m24s 127bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "384s@127bpm76rpm",
-          "duration_secs": 362,
-          "moving_secs": 362,
-          "start_secs": 0,
-          "end_secs": 362,
-          "avg_hr": 120,
-          "max_hr": 141,
-          "min_hr": 71,
-          "avg_cadence": 78.55085,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "384s@127bpm76rpm",
-          "duration_secs": 452,
-          "moving_secs": 452,
-          "start_secs": 362,
-          "end_secs": 814,
-          "avg_hr": 133,
-          "max_hr": 141,
-          "min_hr": 125,
-          "avg_cadence": 74.19469,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "384s@127bpm76rpm",
-          "duration_secs": 409,
-          "moving_secs": 409,
-          "start_secs": 814,
-          "end_secs": 1223,
-          "avg_hr": 132,
-          "max_hr": 139,
-          "min_hr": 122,
-          "avg_cadence": 75.66912,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "384s@127bpm76rpm",
-          "duration_secs": 375,
-          "moving_secs": 375,
-          "start_secs": 1223,
-          "end_secs": 1598,
-          "avg_hr": 125,
-          "max_hr": 134,
-          "min_hr": 109,
-          "avg_cadence": 80.229355,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "384s@127bpm76rpm",
-          "duration_secs": 343,
-          "moving_secs": 343,
-          "start_secs": 1598,
-          "end_secs": 1941,
-          "avg_hr": 127,
-          "max_hr": 132,
-          "min_hr": 123,
-          "avg_cadence": 79.41982,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "384s@127bpm76rpm",
-          "duration_secs": 360,
-          "moving_secs": 360,
-          "start_secs": 1941,
-          "end_secs": 2301,
-          "avg_hr": 125,
-          "max_hr": 145,
-          "min_hr": 107,
-          "avg_cadence": 70.28706,
-          "zone": 1
-        }
-      ],
-      "zone_basis": "hr"
-    },
-    {
       "activity_id": "i182319432",
       "date": "2026-09-02",
       "start_datetime": "2026-09-02T06:51:31",
@@ -368,24 +277,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-09-01T12:29:51.918+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-01T14:37:18.648229",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i182058872": {
-      "date": "2026-08-19",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-01T14:37:18.648229",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-01T12:29:55.609+00:00"
       },
       "streams": {
         "attempts": 1,
