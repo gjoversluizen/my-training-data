@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:36:15.328012",
+  "generated_at": "2026-09-05T14:50:15.548750",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -24,7 +24,7 @@
           "max_hr": 147,
           "min_hr": 92,
           "avg_cadence": 77.86826,
-          "zone": 1
+          "zone": 3
         }
       ],
       "zone_basis": "hr"
@@ -52,7 +52,7 @@
           "max_hr": 144,
           "min_hr": 81,
           "avg_cadence": 78.84257,
-          "zone": 1
+          "zone": 3
         },
         {
           "type": "WORK",
@@ -65,7 +65,7 @@
           "max_hr": 145,
           "min_hr": 132,
           "avg_cadence": 79.81734,
-          "zone": 1
+          "zone": 3
         },
         {
           "type": "WORK",
@@ -78,7 +78,7 @@
           "max_hr": 149,
           "min_hr": 141,
           "avg_cadence": 81.93651,
-          "zone": 1
+          "zone": 3
         }
       ],
       "zone_basis": "hr"
@@ -88,12 +88,12 @@
     "i182058811": {
       "date": "2026-08-24",
       "intervals": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-04T13:53:10.952484",
+        "last_attempt": "2026-09-05T14:50:15.548750",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-09-04T13:51:40.763+00:00"
+        "source_icu_sync_date": "2026-09-05T14:42:08.734+00:00"
       },
       "streams": {
         "attempts": 1,
@@ -106,12 +106,12 @@
     "i182319432": {
       "date": "2026-09-02",
       "intervals": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-09-02T05:28:32.383975",
-        "last_attempt": "2026-09-02T05:28:32.383975",
+        "last_attempt": "2026-09-05T14:50:15.548750",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-09-02T05:15:52.100+00:00"
+        "source_icu_sync_date": "2026-09-05T14:42:08.864+00:00"
       },
       "streams": {
         "attempts": 23,
