@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T23:49:43.822581",
+  "generated_at": "2026-09-05T00:14:04.490916",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -24,114 +24,6 @@
           "max_hr": 147,
           "min_hr": 92,
           "avg_cadence": 77.86826,
-          "zone": 1
-        }
-      ],
-      "zone_basis": "hr"
-    },
-    {
-      "activity_id": "i182058839",
-      "date": "2026-08-21",
-      "start_datetime": "2026-08-21T06:40:54",
-      "type": "TrailRun",
-      "name": "drank 500 ml isostar durinfg. left knee felt a bit \"wollig\" running down on asphalt, left calve felt a bit thight close to the shin. right hip still a tiny bit stiff as right hamstring, but definitely better as last time.",
-      "interval_summary": [
-        "2x 6m36s 124bpm",
-        "1x 10m33s 135bpm",
-        "2x 7m41s 137bpm",
-        "1x 5m38s 135bpm",
-        "1x 3m24s 127bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "396s@124bpm77rpm",
-          "duration_secs": 397,
-          "moving_secs": 397,
-          "start_secs": 0,
-          "end_secs": 397,
-          "avg_hr": 120,
-          "max_hr": 134,
-          "min_hr": 66,
-          "avg_cadence": 75.73008,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "633s@135bpm61rpm",
-          "duration_secs": 633,
-          "moving_secs": 633,
-          "start_secs": 397,
-          "end_secs": 1030,
-          "avg_hr": 135,
-          "max_hr": 143,
-          "min_hr": 128,
-          "avg_cadence": 61.495255,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "396s@124bpm77rpm",
-          "duration_secs": 395,
-          "moving_secs": 395,
-          "start_secs": 1030,
-          "end_secs": 1425,
-          "avg_hr": 127,
-          "max_hr": 141,
-          "min_hr": 118,
-          "avg_cadence": 78.11392,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "461s@137bpm71rpm",
-          "duration_secs": 462,
-          "moving_secs": 462,
-          "start_secs": 1425,
-          "end_secs": 1887,
-          "avg_hr": 134,
-          "max_hr": 147,
-          "min_hr": 119,
-          "avg_cadence": 69.080086,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "461s@137bpm71rpm",
-          "duration_secs": 460,
-          "moving_secs": 460,
-          "start_secs": 1887,
-          "end_secs": 2347,
-          "avg_hr": 139,
-          "max_hr": 147,
-          "min_hr": 129,
-          "avg_cadence": 73.21304,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "338s@135bpm81rpm",
-          "duration_secs": 338,
-          "moving_secs": 338,
-          "start_secs": 2347,
-          "end_secs": 2685,
-          "avg_hr": 135,
-          "max_hr": 141,
-          "min_hr": 127,
-          "avg_cadence": 81.18047,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "204s@127bpm84rpm",
-          "duration_secs": 204,
-          "moving_secs": 204,
-          "start_secs": 2685,
-          "end_secs": 2889,
-          "avg_hr": 127,
-          "max_hr": 130,
-          "min_hr": 123,
-          "avg_cadence": 83.71568,
           "zone": 1
         }
       ],
@@ -202,24 +94,6 @@
         "status": "ok",
         "reason": "ok",
         "source_icu_sync_date": "2026-09-04T13:51:40.763+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-01T14:37:18.648229",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
-    "i182058839": {
-      "date": "2026-08-21",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-01T14:37:18.648229",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-01T12:29:51.918+00:00"
       },
       "streams": {
         "attempts": 1,
