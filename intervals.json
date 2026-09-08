@@ -1,34 +1,11 @@
 {
-  "generated_at": "2026-09-07T23:49:49.142716",
+  "generated_at": "2026-09-08T00:14:57.099608",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i182058811",
-      "date": "2026-08-24",
-      "start_datetime": "2026-08-24T18:08:43",
-      "type": "TrailRun",
-      "name": "Evening Trailrun",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1641,
-          "moving_secs": 1641,
-          "start_secs": 0,
-          "end_secs": 1641,
-          "avg_hr": 125,
-          "max_hr": 147,
-          "min_hr": 92,
-          "avg_cadence": 77.86826,
-          "zone": 3
-        }
-      ],
-      "zone_basis": "hr"
-    },
     {
       "activity_id": "i182319432",
       "date": "2026-09-02",
@@ -85,24 +62,6 @@
     }
   ],
   "fetch_state": {
-    "i182058811": {
-      "date": "2026-08-24",
-      "intervals": {
-        "attempts": 5,
-        "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-07T11:09:23.013447",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-07T11:02:33.907+00:00"
-      },
-      "streams": {
-        "attempts": 1,
-        "first_seen": "2026-09-01T14:37:18.648229",
-        "last_attempt": "2026-09-01T14:37:18.648229",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i182319432": {
       "date": "2026-09-02",
       "intervals": {
