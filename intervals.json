@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:43:54.456156",
+  "generated_at": "2026-09-14T16:56:48.750013",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -292,6 +292,94 @@
         }
       ],
       "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i186665915",
+      "date": "2026-09-14",
+      "start_datetime": "2026-09-14T17:42:21",
+      "type": "Swim",
+      "name": "Afternoon Swim",
+      "interval_summary": [
+        "1x 100m 61bpm",
+        "1x 125m 63bpm",
+        "1x 100m 69bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "396s@61bpm7rpm",
+          "duration_secs": 396,
+          "moving_secs": 396,
+          "start_secs": 0,
+          "end_secs": 396,
+          "avg_hr": 61,
+          "max_hr": 88,
+          "min_hr": 51,
+          "avg_cadence": 7.3994913,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 63,
+          "moving_secs": 63,
+          "start_secs": 396,
+          "end_secs": 459,
+          "avg_hr": 75,
+          "max_hr": 78,
+          "min_hr": 73,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "517s@63bpm6rpm",
+          "duration_secs": 517,
+          "moving_secs": 517,
+          "start_secs": 459,
+          "end_secs": 976,
+          "avg_hr": 63,
+          "max_hr": 96,
+          "min_hr": 53,
+          "avg_cadence": 6.0988374,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 303,
+          "moving_secs": 303,
+          "start_secs": 976,
+          "end_secs": 1279,
+          "avg_hr": 77,
+          "max_hr": 120,
+          "min_hr": 59,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "361s@69bpm3rpm",
+          "duration_secs": 361,
+          "moving_secs": 361,
+          "start_secs": 1279,
+          "end_secs": 1640,
+          "avg_hr": 69,
+          "max_hr": 115,
+          "min_hr": 54,
+          "avg_cadence": 3.4182825,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1756,
+          "moving_secs": 1756,
+          "start_secs": 1640,
+          "end_secs": 3396,
+          "avg_hr": 67,
+          "max_hr": 93,
+          "min_hr": 52,
+          "avg_cadence": 1.1892816,
+          "zone": 1
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -347,6 +435,25 @@
         "last_attempt": "2026-09-14T09:10:43.295283",
         "status": "tombstone",
         "reason": "retry_expired"
+      }
+    },
+    "i186665915": {
+      "date": "2026-09-14",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-09-14T16:56:48.750013",
+        "last_attempt": "2026-09-14T16:56:48.750013",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-09-14T16:44:35.081+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-09-14T16:56:48.750013",
+        "last_attempt": "2026-09-14T16:56:48.750013",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-09-14T17:01:48.750013"
       }
     }
   }
