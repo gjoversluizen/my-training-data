@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T05:53:15.769410",
+  "generated_at": "2026-09-17T06:12:08.428911",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -326,6 +326,150 @@
         }
       ],
       "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i187520617",
+      "date": "2026-09-17",
+      "start_datetime": "2026-09-17T07:12:19",
+      "type": "TrailRun",
+      "name": "Morning Trail Run",
+      "interval_summary": [
+        "9x 5m 112bpm",
+        "1x 97s 118bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 301,
+          "moving_secs": 301,
+          "start_secs": 0,
+          "end_secs": 301,
+          "avg_hr": 107,
+          "max_hr": 121,
+          "min_hr": 78,
+          "avg_cadence": 54.576794,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 301,
+          "end_secs": 601,
+          "avg_hr": 107,
+          "max_hr": 113,
+          "min_hr": 102,
+          "avg_cadence": 73.82667,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 601,
+          "end_secs": 901,
+          "avg_hr": 112,
+          "max_hr": 120,
+          "min_hr": 108,
+          "avg_cadence": 62.16,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 901,
+          "end_secs": 1201,
+          "avg_hr": 108,
+          "max_hr": 116,
+          "min_hr": 98,
+          "avg_cadence": 61.68667,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 1201,
+          "end_secs": 1501,
+          "avg_hr": 118,
+          "max_hr": 126,
+          "min_hr": 100,
+          "avg_cadence": 60.676666,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 1501,
+          "end_secs": 1801,
+          "avg_hr": 115,
+          "max_hr": 123,
+          "min_hr": 108,
+          "avg_cadence": 61.003334,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 1801,
+          "end_secs": 2101,
+          "avg_hr": 111,
+          "max_hr": 123,
+          "min_hr": 102,
+          "avg_cadence": 72.82,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 2101,
+          "end_secs": 2401,
+          "avg_hr": 112,
+          "max_hr": 120,
+          "min_hr": 107,
+          "avg_cadence": 78.58863,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "300s@112bpm67rpm",
+          "duration_secs": 300,
+          "moving_secs": 300,
+          "start_secs": 2401,
+          "end_secs": 2701,
+          "avg_hr": 117,
+          "max_hr": 123,
+          "min_hr": 112,
+          "avg_cadence": 76.276665,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "97s@118bpm76rpm",
+          "duration_secs": 97,
+          "moving_secs": 97,
+          "start_secs": 2701,
+          "end_secs": 2798,
+          "avg_hr": 118,
+          "max_hr": 122,
+          "min_hr": 114,
+          "avg_cadence": 75.90722,
+          "zone": 3
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -382,6 +526,25 @@
         "status": "pending",
         "reason": "no_data",
         "next_retry_at": "2026-09-17T11:25:55.542373"
+      }
+    },
+    "i187520617": {
+      "date": "2026-09-17",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-09-17T06:12:08.428911",
+        "last_attempt": "2026-09-17T06:12:08.428911",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-09-17T06:07:39.162+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-09-17T06:12:08.428911",
+        "last_attempt": "2026-09-17T06:12:08.428911",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-09-17T06:17:08.428911"
       }
     }
   }
