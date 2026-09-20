@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T18:09:59.397456",
+  "generated_at": "2026-09-20T18:26:34.173167",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -28,7 +28,7 @@
           "max_hr": 123,
           "min_hr": 76,
           "avg_cadence": 41.52547,
-          "zone": 2
+          "zone": 1
         },
         {
           "type": "RECOVERY",
@@ -40,7 +40,7 @@
           "max_hr": 120,
           "min_hr": 95,
           "avg_cadence": 29.215687,
-          "zone": 2
+          "zone": 1
         },
         {
           "type": "WORK",
@@ -65,7 +65,7 @@
           "max_hr": 119,
           "min_hr": 119,
           "avg_cadence": 52.0,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "WORK",
@@ -78,7 +78,7 @@
           "max_hr": 132,
           "min_hr": 112,
           "avg_cadence": 52.099724,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "RECOVERY",
@@ -144,7 +144,7 @@
           "max_hr": 134,
           "min_hr": 114,
           "avg_cadence": 63.44,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "WORK",
@@ -170,7 +170,7 @@
           "max_hr": 126,
           "min_hr": 112,
           "avg_cadence": 57.566666,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "WORK",
@@ -183,7 +183,7 @@
           "max_hr": 129,
           "min_hr": 110,
           "avg_cadence": 61.274246,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "RECOVERY",
@@ -195,7 +195,7 @@
           "max_hr": 128,
           "min_hr": 115,
           "avg_cadence": 78.612404,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "WORK",
@@ -349,7 +349,7 @@
           "max_hr": 121,
           "min_hr": 78,
           "avg_cadence": 54.576794,
-          "zone": 2
+          "zone": 1
         },
         {
           "type": "WORK",
@@ -362,7 +362,7 @@
           "max_hr": 113,
           "min_hr": 102,
           "avg_cadence": 73.82667,
-          "zone": 2
+          "zone": 1
         },
         {
           "type": "WORK",
@@ -388,7 +388,7 @@
           "max_hr": 116,
           "min_hr": 98,
           "avg_cadence": 61.68667,
-          "zone": 2
+          "zone": 1
         },
         {
           "type": "WORK",
@@ -401,7 +401,7 @@
           "max_hr": 126,
           "min_hr": 100,
           "avg_cadence": 60.676666,
-          "zone": 3
+          "zone": 2
         },
         {
           "type": "WORK",
@@ -466,7 +466,7 @@
           "max_hr": 122,
           "min_hr": 114,
           "avg_cadence": 75.90722,
-          "zone": 3
+          "zone": 2
         }
       ],
       "zone_basis": "hr"
@@ -596,7 +596,7 @@
           "max_hr": 126,
           "min_hr": 103,
           "avg_cadence": 74.84375,
-          "zone": 3
+          "zone": 2
         }
       ],
       "zone_basis": "hr"
@@ -606,12 +606,12 @@
     "i184838051": {
       "date": "2026-09-09",
       "intervals": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-09-09T09:28:09.891939",
-        "last_attempt": "2026-09-09T14:44:33.048779",
+        "last_attempt": "2026-09-20T18:26:34.173167",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-09-09T14:34:07.788+00:00"
+        "source_icu_sync_date": "2026-09-20T18:13:19.791+00:00"
       },
       "streams": {
         "attempts": 23,
@@ -624,12 +624,12 @@
     "i185521461": {
       "date": "2026-09-11",
       "intervals": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-09-11T08:28:16.757005",
-        "last_attempt": "2026-09-11T19:08:54.073469",
+        "last_attempt": "2026-09-20T18:26:34.173167",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-09-11T19:01:28.784+00:00"
+        "source_icu_sync_date": "2026-09-20T18:13:19.944+00:00"
       },
       "streams": {
         "attempts": 24,
@@ -660,12 +660,12 @@
     "i187520617": {
       "date": "2026-09-17",
       "intervals": {
-        "attempts": 1,
+        "attempts": 2,
         "first_seen": "2026-09-17T06:12:08.428911",
-        "last_attempt": "2026-09-17T06:12:08.428911",
+        "last_attempt": "2026-09-20T18:26:34.173167",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-09-17T06:07:39.162+00:00"
+        "source_icu_sync_date": "2026-09-20T18:13:20.131+00:00"
       },
       "streams": {
         "attempts": 23,
@@ -678,12 +678,12 @@
     "i188020905": {
       "date": "2026-09-18",
       "intervals": {
-        "attempts": 2,
+        "attempts": 3,
         "first_seen": "2026-09-18T18:09:51.019766",
-        "last_attempt": "2026-09-18T19:08:52.514398",
+        "last_attempt": "2026-09-20T18:26:34.173167",
         "status": "ok",
         "reason": "ok",
-        "source_icu_sync_date": "2026-09-18T18:55:13.004+00:00"
+        "source_icu_sync_date": "2026-09-20T18:13:20.289+00:00"
       },
       "streams": {
         "attempts": 19,
