@@ -1,155 +1,11 @@
 {
-  "generated_at": "2026-09-25T23:50:25.260255",
+  "generated_at": "2026-09-26T00:11:47.439835",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i185521461",
-      "date": "2026-09-11",
-      "start_datetime": "2026-09-11T09:41:41",
-      "type": "TrailRun",
-      "name": "Morning Trail Run",
-      "interval_summary": [
-        "7x 5m 119bpm",
-        "1x 2m51s 115bpm",
-        "1x 5s 136bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 301,
-          "moving_secs": 301,
-          "start_secs": 0,
-          "end_secs": 301,
-          "avg_hr": 113,
-          "max_hr": 122,
-          "min_hr": 100,
-          "avg_cadence": 52.163822,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 300,
-          "moving_secs": 300,
-          "start_secs": 301,
-          "end_secs": 601,
-          "avg_hr": 116,
-          "max_hr": 125,
-          "min_hr": 100,
-          "avg_cadence": 75.026665,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 300,
-          "moving_secs": 300,
-          "start_secs": 601,
-          "end_secs": 901,
-          "avg_hr": 122,
-          "max_hr": 134,
-          "min_hr": 114,
-          "avg_cadence": 63.44,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 300,
-          "moving_secs": 300,
-          "start_secs": 901,
-          "end_secs": 1201,
-          "avg_hr": 116,
-          "max_hr": 124,
-          "min_hr": 100,
-          "avg_cadence": 64.438126,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 300,
-          "moving_secs": 300,
-          "start_secs": 1201,
-          "end_secs": 1501,
-          "avg_hr": 118,
-          "max_hr": 126,
-          "min_hr": 112,
-          "avg_cadence": 57.566666,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 300,
-          "moving_secs": 300,
-          "start_secs": 1501,
-          "end_secs": 1801,
-          "avg_hr": 119,
-          "max_hr": 129,
-          "min_hr": 110,
-          "avg_cadence": 61.274246,
-          "zone": 2
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 129,
-          "moving_secs": 129,
-          "start_secs": 1801,
-          "end_secs": 1930,
-          "avg_hr": 122,
-          "max_hr": 128,
-          "min_hr": 115,
-          "avg_cadence": 78.612404,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "171s@115bpm83rpm",
-          "duration_secs": 171,
-          "moving_secs": 171,
-          "start_secs": 1930,
-          "end_secs": 2101,
-          "avg_hr": 115,
-          "max_hr": 124,
-          "min_hr": 108,
-          "avg_cadence": 83.28655,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "300s@119bpm65rpm",
-          "duration_secs": 300,
-          "moving_secs": 300,
-          "start_secs": 2101,
-          "end_secs": 2401,
-          "avg_hr": 126,
-          "max_hr": 138,
-          "min_hr": 118,
-          "avg_cadence": 80.90636,
-          "zone": 3
-        },
-        {
-          "type": "WORK",
-          "label": "5s@136bpm78rpm",
-          "duration_secs": 5,
-          "moving_secs": 5,
-          "start_secs": 2401,
-          "end_secs": 2406,
-          "avg_hr": 136,
-          "max_hr": 138,
-          "min_hr": 136,
-          "avg_cadence": 78.2,
-          "zone": 3
-        }
-      ],
-      "zone_basis": "hr"
-    },
     {
       "activity_id": "i186665915",
       "date": "2026-09-14",
@@ -514,24 +370,6 @@
     }
   ],
   "fetch_state": {
-    "i185521461": {
-      "date": "2026-09-11",
-      "intervals": {
-        "attempts": 3,
-        "first_seen": "2026-09-11T08:28:16.757005",
-        "last_attempt": "2026-09-20T18:26:34.173167",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-09-20T18:13:19.944+00:00"
-      },
-      "streams": {
-        "attempts": 24,
-        "first_seen": "2026-09-11T08:28:16.757005",
-        "last_attempt": "2026-09-14T09:10:43.295283",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i186665915": {
       "date": "2026-09-14",
       "intervals": {
