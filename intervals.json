@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:19:36.784207",
+  "generated_at": "2026-10-21T18:48:28.994157",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -812,6 +812,46 @@
         }
       ],
       "zone_basis": "hr"
+    },
+    {
+      "activity_id": "i200076178",
+      "date": "2026-10-21",
+      "start_datetime": "2026-10-21T18:49:38",
+      "type": "VirtualRun",
+      "name": "Evening Virtual Run",
+      "interval_summary": [
+        "1x 24m41s 121bpm",
+        "1x 5m4s 135bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1481s@121bpm50rpm",
+          "duration_secs": 1481,
+          "moving_secs": 1481,
+          "start_secs": 0,
+          "end_secs": 1481,
+          "avg_hr": 121,
+          "max_hr": 137,
+          "min_hr": 71,
+          "avg_cadence": 49.866848,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "304s@135bpm56rpm",
+          "duration_secs": 304,
+          "moving_secs": 304,
+          "start_secs": 1481,
+          "end_secs": 1785,
+          "avg_hr": 135,
+          "max_hr": 141,
+          "min_hr": 128,
+          "avg_cadence": 56.376236,
+          "zone": 3
+        }
+      ],
+      "zone_basis": "hr"
     }
   ],
   "fetch_state": {
@@ -903,6 +943,25 @@
         "last_attempt": "2026-10-21T14:19:36.784207",
         "status": "tombstone",
         "reason": "retry_expired"
+      }
+    },
+    "i200076178": {
+      "date": "2026-10-21",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-10-21T18:48:28.994157",
+        "last_attempt": "2026-10-21T18:48:28.994157",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-10-21T17:37:44.493+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-10-21T18:48:28.994157",
+        "last_attempt": "2026-10-21T18:48:28.994157",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-10-21T18:53:28.994157"
       }
     }
   }
