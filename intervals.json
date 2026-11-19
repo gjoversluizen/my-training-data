@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T01:29:55.497465",
+  "generated_at": "2026-11-19T09:24:22.180885",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
@@ -89,6 +89,34 @@
         }
       ],
       "zone_basis": "power"
+    },
+    {
+      "activity_id": "i211964774",
+      "date": "2026-11-19",
+      "start_datetime": "2026-11-19T07:10:31",
+      "type": "VirtualRide",
+      "name": "Morning Virtual Ride",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1818,
+          "moving_secs": 1818,
+          "start_secs": 0,
+          "end_secs": 1818,
+          "avg_power": 137,
+          "max_power": 257,
+          "avg_hr": 115,
+          "max_hr": 125,
+          "min_hr": 82,
+          "avg_cadence": 84.7529,
+          "zone": 2,
+          "w_bal_start": 17600,
+          "w_bal_end": 17598,
+          "training_load": 19.760992
+        }
+      ],
+      "zone_basis": "power"
     }
   ],
   "fetch_state": {
@@ -139,12 +167,31 @@
         "source_icu_sync_date": "2026-11-18T06:32:46.647+00:00"
       },
       "streams": {
-        "attempts": 3,
+        "attempts": 4,
         "first_seen": "2026-11-18T11:39:29.253922",
-        "last_attempt": "2026-11-19T01:29:55.497465",
+        "last_attempt": "2026-11-19T09:24:22.180885",
         "status": "pending",
         "reason": "no_data",
-        "next_retry_at": "2026-11-19T01:34:55.497465"
+        "next_retry_at": "2026-11-19T09:29:22.180885"
+      }
+    },
+    "i211964774": {
+      "date": "2026-11-19",
+      "intervals": {
+        "attempts": 1,
+        "first_seen": "2026-11-19T09:24:22.180885",
+        "last_attempt": "2026-11-19T09:24:22.180885",
+        "status": "ok",
+        "reason": "ok",
+        "source_icu_sync_date": "2026-11-19T08:57:16.798+00:00"
+      },
+      "streams": {
+        "attempts": 1,
+        "first_seen": "2026-11-19T09:24:22.180885",
+        "last_attempt": "2026-11-19T09:24:22.180885",
+        "status": "pending",
+        "reason": "no_data",
+        "next_retry_at": "2026-11-19T09:29:22.180885"
       }
     }
   }
