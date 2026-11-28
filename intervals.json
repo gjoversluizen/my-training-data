@@ -1,39 +1,11 @@
 {
-  "generated_at": "2026-11-27T21:31:23.634030",
+  "generated_at": "2026-11-28T03:31:42.569450",
   "schema_version": 1,
   "version": "3.128",
   "script_hash": "bdb9610cbd7c",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i209420349",
-      "date": "2026-11-13",
-      "start_datetime": "2026-11-13T06:59:36",
-      "type": "VirtualRide",
-      "name": "Morning Virtual Ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1817,
-          "moving_secs": 1817,
-          "start_secs": 0,
-          "end_secs": 1817,
-          "avg_power": 92,
-          "max_power": 224,
-          "avg_hr": 119,
-          "max_hr": 132,
-          "min_hr": 82,
-          "avg_cadence": 82.17192,
-          "zone": 1,
-          "w_bal_start": 17600,
-          "w_bal_end": 17599,
-          "training_load": 15.707278
-        }
-      ],
-      "zone_basis": "power"
-    },
     {
       "activity_id": "i211506271",
       "date": "2026-11-18",
@@ -92,24 +64,6 @@
     }
   ],
   "fetch_state": {
-    "i209420349": {
-      "date": "2026-11-13",
-      "intervals": {
-        "attempts": 1,
-        "first_seen": "2026-11-13T08:46:36.535372",
-        "last_attempt": "2026-11-13T08:46:36.535372",
-        "status": "ok",
-        "reason": "ok",
-        "source_icu_sync_date": "2026-11-13T06:54:07.500+00:00"
-      },
-      "streams": {
-        "attempts": 13,
-        "first_seen": "2026-11-13T08:46:36.535372",
-        "last_attempt": "2026-11-16T03:13:26.154021",
-        "status": "tombstone",
-        "reason": "retry_expired"
-      }
-    },
     "i211506271": {
       "date": "2026-11-18",
       "intervals": {
